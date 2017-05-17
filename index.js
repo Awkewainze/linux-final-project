@@ -2,11 +2,12 @@ var express = require("express");
 var app = express();
 var mysql = require("mysql");
 
+// Insert db info here
 var connection = mysql.createConnection({
-    host     : "vps.walseth.me",
-    user     : "root",
-    password : "toor",
-    database : "cats"
+    host     : "",
+    user     : "",
+    password : "",
+    database : ""
 });
 connection.connect();
 
